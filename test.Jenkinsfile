@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('execute pipelint') {
             steps {
-                sho "echo hi"
+                sh "echo hi"
             }
         }
     }
