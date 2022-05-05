@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('execute pipelint') {
             steps {
-                sh "echo change worked"
+                sh "PR 2 echo change worked"
             }
         }
     }
