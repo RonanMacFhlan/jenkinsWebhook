@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'jenkins-agent-cloud' }
+    agent { label 'page-size-jenkins-agent' }
     stages {
         stage('execute pipelint') {
             steps {
